@@ -49,7 +49,7 @@ import { router } from '@/router';
             <v-col>
                 <h3 class="text-h6 mb-2">Описание</h3>
                 <p class="text-caption text-grey mb-2">Описание, видимое для других администраторов</p>
-                <v-textarea variant="outlined" placeholder="Введите описание" rows="2" hide-details></v-textarea>
+                <v-text-field variant="outlined" placeholder="Введите описание" rows="2" hide-details></v-text-field>
             </v-col>
         </v-row>
 
@@ -67,7 +67,7 @@ import { router } from '@/router';
             <v-col>
                 <h3 class="text-h6 mb-2">Сообщение</h3>
                 <p class="text-caption text-grey mb-2">Сообщение, которое пользователи получат в телеграмм боте</p>
-                <v-textarea variant="outlined" placeholder="Введите сообщение" rows="2" hide-details></v-textarea>
+                <v-text-field variant="outlined" placeholder="Введите сообщение" rows="2" hide-details></v-text-field>
             </v-col>
         </v-row>
 
