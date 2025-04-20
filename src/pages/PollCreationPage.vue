@@ -73,9 +73,9 @@ import { router } from '@/router';
 
         <v-row class="mb-6" no-gutters>
             <v-col>
-                <h3 class="text-h6 mb-4">Дата</h3> <!-- Увеличенный отступ снизу -->
+                <h3 class="text-h6 mb-4">Дата</h3>
                 <v-row>
-                    <v-col cols="6">
+                    <v-col cols="2">
                         <p class="text-caption text-grey">Регулярность</p>
                         <v-btn variant="outlined">
                             <v-icon left>mdi-calendar</v-icon>
@@ -84,11 +84,10 @@ import { router } from '@/router';
                     </v-col>
 
                     <v-col cols="6">
-                        <p class="text-caption text-grey">Дедлайн</p>
-                        <div class="d-flex align-center">
+                        <p class="text-caption text-grey">Дедлайн: дней</p>
+                        <div class="d-flex align-right">
                             <v-text-field variant="outlined" class="mr-2" style="max-width: 100px"
                                 hide-details></v-text-field>
-                            <span class="text-caption">дней</span>
                         </div>
                     </v-col>
                 </v-row>
