@@ -27,7 +27,7 @@ const surveys = ref([
 ]);
 
 const goBack = () => {
-    router.push('/main');
+    router.push('/');
 };
 
 const createNewPoll = () => {

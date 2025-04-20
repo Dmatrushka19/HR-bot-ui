@@ -3,7 +3,7 @@ import { useProfileStore } from '@/store';
 
 const routes: RouteRecordRaw[] = [
 	{
-		path: '/main',
+		path: '/',
 		component: () => import('../pages/MainPage.vue'),
 	},
 	{
