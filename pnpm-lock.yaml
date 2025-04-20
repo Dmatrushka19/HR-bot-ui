@@ -72,6 +72,12 @@ importers:
       openapi-typescript:
         specifier: ^7.6.1
         version: 7.6.1(typescript@5.8.2)
+      postcss:
+        specifier: ^8.5.3
+        version: 8.5.3
+      postcss-nesting:
+        specifier: ^13.0.1
+        version: 13.0.1(postcss@8.5.3)
       postcss-preset-env:
         specifier: ^10.1.5
         version: 10.1.5(postcss@8.5.3)
