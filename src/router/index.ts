@@ -1,8 +1,9 @@
 import { RouteRecordRaw, createRouter, createWebHistory } from 'vue-router';
+import { useProfileStore } from '@/store';
 
 const routes: RouteRecordRaw[] = [
 	{
-		path: '/',
+		path: '/main',
 		component: () => import('../pages/MainPage.vue'),
 	},
 ];
