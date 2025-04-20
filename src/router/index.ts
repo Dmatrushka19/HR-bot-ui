@@ -6,6 +6,14 @@ const routes: RouteRecordRaw[] = [
 		path: '/main',
 		component: () => import('../pages/MainPage.vue'),
 	},
+	{
+		path: '/admin/main',
+		component: () => import('../pages/Admin/AdminFeedbackMainPage.vue'),
+	},
+	{
+		path: '/poll/creation',
+		component: () => import('../pages/PollCreationPage.vue'), 
+	},
 ];
 
 export const router = createRouter({
@@ -13,6 +21,6 @@ export const router = createRouter({
 	routes,
 });
 
-router.beforeEach(to => {
+router.beforeEach((to: RouteLocationNormalized) => {
 	console.log(to);
 });
